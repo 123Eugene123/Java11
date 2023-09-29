@@ -1,9 +1,9 @@
 public class SimpleTask extends Task {
+    protected String title;
+
     public String getTitle() {
         return title;
     }
-
-    protected String title;
 
     public SimpleTask(int id, String title) {
         super(id);
